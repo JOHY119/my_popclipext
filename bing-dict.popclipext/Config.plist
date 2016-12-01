@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>After</key>
+			<string>show-result</string>
+			<!--<key>Image File</key>
+			<string>itrans.png</string>-->
+			<key>Shell Script File</key>
+			<string>dic.sh</string>
+			<key>Title</key>
+			<string>词</string>
+			<key>Regular Expression</key>
+			<string>(?s)^.{1,200}$</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Instantly translate the selected word or short phrase. Powered by Microsoft Translator.</string>
+	<key>Extension Identifier</key>
+	<string>com.meminn.bing-dict</string>
+	<key>Extension Name</key>
+	<string>Bing Dict</string>
+	
+</dict>
+</plist>
